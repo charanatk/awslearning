@@ -12,7 +12,7 @@ public class AwslearningApplication {
 	@GetMapping("/deployStatus")
 	public String deploy() {
 		
-		return "Deploy elastic beanstalk";
+		return "Deploy elastic beanstalk..";
 	}
 
 	public static void main(String[] args) {
